@@ -1,0 +1,12 @@
+[user]
+	name = Tyrel Datwyler
+	email = tyreld@linux.vnet.ibm.com
+[core]
+	editor = vim
+[color]
+	ui = auto
+[sendemail]
+	chainreplyto = false
+	aliasesfile = /root/.git_aliases
+	aliasfiletype = mutt
+	smtpserver = na.relay.ibm.com

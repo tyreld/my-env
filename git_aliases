@@ -1,0 +1,17 @@
+alias me tyreld@linux.vnet.ibm.com
+alias nfont nfont@linux.vnet.ibm.com
+alias tfalcon tlfalcon@linux.vnet.ibm.com
+alias jallen jallen@linux.vnet.ibm.com
+alias bking brking@linux.vnet.ibm.com
+
+alias linux linux-kernel@vger.kernel.org
+alias ppc linuxppc-dev@lists.ozlabs.org
+alias mpe mpe@ellerman.id.au
+alias benh benh@kernel.crashing.org
+
+alias scsi linux-scsi@vger.kernel.org
+alias scsi-main1 james.bottomley@hansenpartnership.com
+alias scsi-main2 martin.petersen@oracle.com
+
+alias hannes hare@suse.de
+
