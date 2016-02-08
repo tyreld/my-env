@@ -1,4 +1,4 @@
 #!/bin/sh
 
-ln -vs gitconfig ~/.gitconfig
-ln -vs git_aliases ~/.git_aliases
+ln -ivs $(pwd)/gitconfig ~/.gitconfig
+ln -ivs $(pwd)/git_aliases ~/.git_aliases
