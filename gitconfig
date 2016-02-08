@@ -10,3 +10,5 @@
 	aliasesfile = /root/.git_aliases
 	aliasfiletype = mutt
 	smtpserver = na.relay.ibm.com
+[push]
+	default = simple
