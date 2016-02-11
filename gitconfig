@@ -12,3 +12,6 @@
 	smtpserver = na.relay.ibm.com
 [push]
 	default = simple
+[alias]
+	send-ppc = send-email --to mpe --cc benh --cc ppc --cc nfont
+	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
