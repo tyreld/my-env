@@ -16,13 +16,17 @@
 	send-ppc = send-email --to mpe --cc benh --cc ppc --cc nfont
 	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
 
+	send-ppc-util = send-email --to ppc-util --cc nfont
+	send-librtas = send-email --to librtas -cc nfont
+
 	clone-linus = clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-	clone-ppc-nfont = clone https://github.com/nfont/powerpc-utils
-	clone-librtas-nfont = clone https://github.com/nfont/librtas
+	clone-ppc-util = clone https://github.com/ibm-power-utilities/powerpc-utils.git
+	clone-librtas = clone https://github.com/ibm-power-utilities/librtas.git
 	clone-diag-sf = clone git://git.code.sf.net/p/linux-diag/ppc64-diag
 
 	b = branch -vv
 	ba = branch -vv -a
+	br = branch -vv -r
 
 	co = checkout
 
