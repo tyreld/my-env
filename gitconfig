@@ -32,6 +32,7 @@
 
 	l1 = log --oneline
 	l1m = log --oneline master..
+	l1n = log --oneline next..
 
 	dc = describe --contains
 	fp = format-patch -k -M -N
