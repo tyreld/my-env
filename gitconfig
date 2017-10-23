@@ -17,9 +17,9 @@
 	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
 
 	clone-linus = clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-	clone-ppc-nfont = clone https://github.com/nfont/powerpc-utils
-	clone-librtas-nfont = clone https://github.com/nfont/librtas
-	clone-diag-sf = clone git://git.code.sf.net/p/linux-diag/ppc64-diag
+	clone-ppcutils = clone https://github.com/ibm-power-utils/powerpc-utils.git
+	clone-librtas = clone https://github.com/ibm-power-utils/librtas.git
+	clone-diag = clone git://git.code.sf.net/p/linux-diag/ppc64-diag
 
 	b = branch -vv
 	ba = branch -vv -a
