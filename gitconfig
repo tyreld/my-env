@@ -16,6 +16,9 @@
 	send-ppc = send-email --to mpe --cc benh --cc ppc --cc nfont
 	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
 
+	send-ppc-util = send-email --to ppc-util --cc nfont
+	send-librtas = send-email --to librtas -cc nfont
+
 	clone-linus = clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 	clone-ppcutils = clone https://github.com/ibm-power-utilities/powerpc-utils.git
 	clone-librtas = clone https://github.com/ibm-power-utilities/librtas.git
@@ -23,8 +26,13 @@
 
 	b = branch -vv
 	ba = branch -vv -a
+	br = branch -vv -r
 
 	co = checkout
 
 	l1 = log --oneline
 	l1m = log --oneline master..
+	l1n = log --oneline next..
+
+	dc = describe --contains
+	fp = format-patch -k -M -N
