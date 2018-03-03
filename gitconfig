@@ -15,6 +15,7 @@
 [alias]
 	send-ppc = send-email --to mpe --cc benh --cc ppc --cc nfont
 	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
+	send-of = send-email --to robh --cc frankr --cc dev-tree
 
 	send-ppc-util = send-email --to ppc-util --cc nfont
 	send-librtas = send-email --to librtas -cc nfont
