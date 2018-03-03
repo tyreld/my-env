@@ -5,6 +5,7 @@ alias jallen jallen@linux.vnet.ibm.com
 alias bking brking@linux.vnet.ibm.com
 
 alias linux linux-kernel@vger.kernel.org
+
 alias ppc linuxppc-dev@lists.ozlabs.org
 alias mpe mpe@ellerman.id.au
 alias benh benh@kernel.crashing.org
@@ -17,3 +18,7 @@ alias hannes hare@suse.de
 
 alias ppc-util powerpc-utils-devel@googlegroups.com
 alias librtas librtas-devel@googlegroups.com
+
+alias dev-tree devicetree@vger.kernel.org
+alias robh robh+dt@kernel.org
+alias frankr frowand.list@gmail.com
