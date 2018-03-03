@@ -36,3 +36,6 @@
 
 	dc = describe --contains
 	fp = format-patch -k -M -N
+
+	push-next = push origin next:next
+	push-master = push origin master:master
