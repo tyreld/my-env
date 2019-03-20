@@ -13,17 +13,19 @@
 [push]
 	default = simple
 [alias]
-	send-ppc = send-email --to mpe --cc benh --cc ppc --cc nfont
-	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking --cc nfont
+	send-ppc = send-email --to mpe --cc benh --cc ppc
+	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking
 	send-of = send-email --to robh --cc frankr --cc dev-tree
 
-	send-ppc-util = send-email --to ppc-util --cc nfont
-	send-librtas = send-email --to librtas -cc nfont
+	send-ppc-util = send-email --to ppc-util
+	send-librtas = send-email --to librtas
 
 	clone-linus = clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 	clone-ppcutils = clone https://github.com/ibm-power-utilities/powerpc-utils.git
 	clone-librtas = clone https://github.com/ibm-power-utilities/librtas.git
 	clone-diag = clone git://git.code.sf.net/p/linux-diag/ppc64-diag
+
+	add-tyreld = remote add tyreld https://github.com/tyreld/linux.git
 
 	b = branch -vv
 	ba = branch -vv -a
