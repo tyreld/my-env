@@ -26,6 +26,7 @@
 	clone-diag = clone git://git.code.sf.net/p/linux-diag/ppc64-diag
 
 	add-tyreld = remote add tyreld https://github.com/tyreld/linux.git
+    add-suse = remote add suse https://github.com/openSUSE/kernel.git
 
 	b = branch -vv
 	ba = branch -vv -a
