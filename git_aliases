@@ -1,8 +1,6 @@
-alias me tyreld@linux.vnet.ibm.com
-alias nfont nfont@linux.vnet.ibm.com
-alias tfalcon tlfalcon@linux.vnet.ibm.com
-alias jallen jallen@linux.vnet.ibm.com
-alias bking brking@linux.vnet.ibm.com
+alias me tyreld@linux.ibm.com
+alias tfalcon tlfalcon@linux.ibm.com
+alias bking brking@linux.ibm.com
 
 alias linux linux-kernel@vger.kernel.org
 
