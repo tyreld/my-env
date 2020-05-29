@@ -7,7 +7,7 @@
 	ui = auto
 [sendemail]
 	chainreplyto = false
-	aliasesfile = /root/.git_aliases
+	aliasesfile = ~/.git_aliases
 	aliasfiletype = mutt
 	smtpserver = na.relay.ibm.com
 [push]

@@ -2,6 +2,7 @@
 
 ln -ivs $(pwd)/gitconfig ~/.gitconfig
 ln -ivs $(pwd)/git_aliases ~/.git_aliases
+ln -ivs $(pwd)/vimrc ~/.vimrc
 
 pushd ~
 git clone-linus
