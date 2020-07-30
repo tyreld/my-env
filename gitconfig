@@ -13,9 +13,10 @@
 [push]
 	default = simple
 [alias]
-	send-ppc = send-email --to mpe --cc benh --cc ppc
-	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc bking
-	send-of = send-email --to robh --cc frankr --cc dev-tree
+	send-ppc = send-email --to mpe --cc benh --cc ppc --cc linux
+	send-vio = send-email --to scsi-main1 --cc scsi-main2 --cc scsi --cc ppc --cc linux --cc bking
+	send-of = send-email --to robh --cc frankr --cc dev-tree --cc linux
+	send-pci = send-email --to bjorn --cc pci --cc ppc --cc linux
 
 	send-ppc-util = send-email --to ppc-util
 	send-librtas = send-email --to librtas

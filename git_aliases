@@ -22,3 +22,6 @@ alias librtas librtas-devel@googlegroups.com
 alias dev-tree devicetree@vger.kernel.org
 alias robh robh+dt@kernel.org
 alias frankr frowand.list@gmail.com
+
+alias pci linux-pci@vger.kernel.org
+alias bjorn bhelgaas@google.com
