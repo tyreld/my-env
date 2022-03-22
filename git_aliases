@@ -1,10 +1,10 @@
 alias me tyreld@linux.ibm.com
-alias tfalcon tlfalcon@linux.ibm.com
 alias bking brking@linux.ibm.com
 alias nlynch nathanl@linux.ibm.com
-alias mwb mwb@linux.ibm.com
+alias mcao mmc@linux.ibm.com
 
 alias linux linux-kernel@vger.kernel.org
+alias linus torvalds@linux-foundation.org
 
 alias ppc linuxppc-dev@lists.ozlabs.org
 alias mpe mpe@ellerman.id.au
@@ -14,10 +14,15 @@ alias scsi linux-scsi@vger.kernel.org
 alias scsi-main1 james.bottomley@hansenpartnership.com
 alias scsi-main2 martin.petersen@oracle.com
 
+alias target target-devel@vger.kernel.org
+alias mcyr mikecyr@linux.ibm.com
+
 alias hannes hare@suse.de
 
 alias ppc-util powerpc-utils-devel@googlegroups.com
 alias librtas librtas-devel@googlegroups.com
+
+alias michals msuchanek@suse.de
 
 alias dev-tree devicetree@vger.kernel.org
 alias robh robh+dt@kernel.org

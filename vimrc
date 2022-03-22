@@ -111,4 +111,6 @@ endfunction
 nnoremap <Leader>ws :call ToggleShowWhitespace()
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 
+"set list
+"set listchars=tab:>-,trail:$
 " vim: ts=4 et sw=4

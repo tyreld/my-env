@@ -1,8 +1,11 @@
 [user]
 	name = Tyrel Datwyler
 	email = tyreld@linux.ibm.com
+	btaas-old = 2f63d38a6aa1b05c563d33756e672d47e6650637
+	btaas = 0a82914bb4178e9fb9e3425aff7471c3f87d83f7
 [core]
 	editor = vim
+	abbrev = 12
 [color]
 	ui = auto
 [sendemail]
