@@ -12,6 +12,7 @@ git fetch tyreld
 git add-suse
 git fetch suse
 popd
+git clone-fio
 git clone-ppcutils
 git clone-librtas
 git clone-diag
